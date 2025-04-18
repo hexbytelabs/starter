@@ -1,0 +1,13 @@
+import "base"
+
+model User extends Base {
+  @@map("users")
+
+  auth_id    String  @unique @db.VarChar(255)
+  stripe_id  String  @unique @db.VarChar(255)
+  is_admin   Boolean @default(false)
+
+  email      String  @unique @db.VarChar(255)
+  first_name String  @db.VarChar(255)
+  last_name  String  @db.VarChar(255)
+}
