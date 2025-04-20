@@ -1,5 +1,6 @@
 {
   "name": "starter",
+  "description": "",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hexbytelabs/ui-library": "^0.0.10",
     "@prisma/client": "^6.6.0",
     "@zenstackhq/runtime": "2.14.0",
     "lodash-es": "^4.17.21",

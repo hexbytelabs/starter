@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import "./styles.css";
+import "./styles.css"
+import "@hexbytelabs/ui-library/dist/style.css";
 import React from "react";
 
 export const metadata: Metadata = {
